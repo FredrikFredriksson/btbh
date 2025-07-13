@@ -111,12 +111,12 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/25"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1 
-            className="text-5xl pt-20 md:text-7xl mb-6 text-white"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl pt-20 mb-6 text-white"
           >
             Den Magiske Kraften av GLEDE
           </h1>
           
-          <p className="text-lg md:text-xl text-white/90 pt-8 max-w-3xl mx-auto whitespace-nowrap">
+          <p className="text-base sm:text-lg md:text-xl text-white/90 pt-8 max-w-3xl mx-auto">
             <i>Vi hjelper deg å oppdage din indre kraft og manifestere det livet du ønsker deg</i>
           </p>
         </div>

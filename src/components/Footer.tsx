@@ -5,23 +5,26 @@ export default function Footer() {
   return (
     <footer className="bg-[#3F7F94]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <div className="text-white text-xs font-playfair-display">
+        <div className="flex flex-col md:flex-row justify-between items-center py-4 md:h-16 space-y-4 md:space-y-0">
+          <div className="text-white text-xs font-playfair-display text-center md:text-left">
             © Copyright 2025 Born to be happy AS. Med enerett.
           </div>
           
-          <div className="flex items-center justify-center space-x-2">
-            <Phone className="w-4 h-4 text-white" />
-            <span className="text-white text-sm font-playfair-display">
-              +47 915 12 343
-            </span>
-          </div>
-          
-          <div className="flex items-center justify-center space-x-2">
-            <Mail className="w-4 h-4 text-white" />
-            <span className="text-white text-sm font-playfair-display">
-              Happypost@btbh.no
-            </span>
+          {/* Phone and Email - Hidden on mobile */}
+          <div className="hidden md:flex items-center justify-center space-x-6">
+            <div className="flex items-center justify-center space-x-2">
+              <Phone className="w-4 h-4 text-white" />
+              <span className="text-white text-sm font-playfair-display">
+                +47 915 12 343
+              </span>
+            </div>
+            
+            <div className="flex items-center justify-center space-x-2">
+              <Mail className="w-4 h-4 text-white" />
+              <span className="text-white text-sm font-playfair-display">
+                Happypost@btbh.no
+              </span>
+            </div>
           </div>
           
           <div className="flex items-center space-x-3">
