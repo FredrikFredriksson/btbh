@@ -216,7 +216,7 @@ export default function Home() {
             Bli med på en endringsreise
           </h3>
           <p className="text-xl md:text-2xl text-white mb-12">
-            - og opplev varig livsforvandlende forskjell!
+            - og opplev varig livsforvandlende forskjell
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12 max-w-4xl mx-auto">
