@@ -67,21 +67,22 @@ export default function Kurs() {
   return (
     <div className="min-h-screen ">
       {/* Hero Section */}
-      <section className="relative h-130 flex items-center justify-center mb-16 -mt-16">
+      <section className="relative h-130 flex items-center justify-start mb-16 -mt-16">
         <Image 
-          src="/images/nature3.jpg" 
+          src="/images/butterflies1.jpg" 
           alt="Kurs Background" 
           fill
           className="object-cover"
           priority
         />
         <div className="absolute inset-0 bg-black/40"></div>
-        <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
+        <div className="relative z-10 text-left max-w-4xl px-4 ml-8 md:ml-16">
           <h1 className="text-4xl md:text-6xl mb-6 text-white font-playfair-display">
             Våre Kurs
           </h1>
-          <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
-            Oppdag den magiske kraften av glede gjennom våre transformativ kurs og opplevelser
+          <p className="text-lg md:text-xl text-white/90 max-w-2xl">
+            Oppdag den magiske kraften av glede<br />
+            gjennom våre transformativ kurs og opplevelser
           </p>
         </div>
       </section>
